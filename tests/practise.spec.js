@@ -42,8 +42,6 @@ test("Practise", async ({ browser }) => {
    await newPage.waitForLoadState();
    console.log(await newPage.title())
 
-   page.fr
-
 
 
 })

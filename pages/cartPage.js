@@ -7,7 +7,7 @@ class cartPage {
     }
 
     async moveProductFromPayment(productName) {
-        await this.productInCart .waitFor();
+        await this.productInCart.waitFor();
         expect(await this.productInCart).toHaveText(productName);
         await this.checkout_button.click();
     }

@@ -1,4 +1,4 @@
-const {test,expect} = require('@playwright/test')
+const {test} = require('@playwright/test')
 const data = JSON.parse(JSON.stringify(require("../utils/testdata.json")))
 const LoginPage = require('../pages/loginPage');
 const HomePage =require('../pages/homePage');

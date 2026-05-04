@@ -1,6 +1,6 @@
 const {test,expect} = require('@playwright/test')
 const dataSet = JSON.parse(JSON.stringify(require("../utils/testdataSet.json")))
-//test.describe.configure({mode:"serial"});
+test.describe.configure({mode:"serial"});
 for(let data of dataSet){
      test(`Place order for different datasets ${data.productName}`,async ({browser})=>{
         const context = await browser.newContext();

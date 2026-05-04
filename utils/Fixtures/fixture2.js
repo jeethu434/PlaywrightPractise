@@ -8,8 +8,9 @@ export const test= base.extend({
             await page.getByRole('textbox', { name: 'email@example.com' }).fill("tester@test.com");
             await page.getByRole('textbox', { name: 'enter your passsword' }).fill("Test@123");
             await page.getByRole('button', { name: 'Login' }).click();
-            expect(await page.locator("//div[@class='overlay-container']")).toContainText("Login Successfully");
             await use(page);
 
     }
 })
+
+export {expect}

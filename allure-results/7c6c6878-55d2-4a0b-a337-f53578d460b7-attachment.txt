@@ -1,0 +1,5 @@
+[
+  28, 23, 48, 18, 32,
+  46, 37, 31, 33
+]
+Loading https://www.qaclickacademy.com/lander?oref=https%3A%2F%2Frahulshettyacademy.com%2F

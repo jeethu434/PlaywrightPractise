@@ -9,6 +9,8 @@ test("@Web End to End 2", async ({browser})=>{
      await POManager.getLoginPage().loginToApp(data.userName,data.password);
      await POManager.getHomePage().serachAndAddProductToCart(data.productName);
      await POManager.getCartPage().moveProductFromPayment(data.productName);
-     await POManager.getPaymentPage().placeOrder('India');     
+     await POManager.getPaymentPage().placeOrder('India');  
+
+
 })
 
