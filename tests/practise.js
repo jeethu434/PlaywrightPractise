@@ -9,9 +9,7 @@ if(str[i]==str[j]){
     a++;
 }
 }
-if(a>=2){
-    console.log(str[i]+":"+ a)
-}
+
 }
 
 
