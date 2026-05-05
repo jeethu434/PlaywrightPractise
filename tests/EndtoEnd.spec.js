@@ -6,6 +6,7 @@ const CartPage =require('../pages/cartPage');
 const PaymentPage = require('../pages/paymentPage');
 
 test("End to End", async ({browser})=>{
+     console.log("test stared");
      const context = await browser.newContext();
      const page = await context.newPage();
      const loginPage = new LoginPage(page);
